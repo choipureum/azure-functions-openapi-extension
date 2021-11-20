@@ -30,7 +30,7 @@ namespace Microsoft.Azure.WebJobs.Extensions.OpenApi.Core.Resolvers
             {
                 basePath = ConfigurationResolver.GetBasePath(config);
             }
-
+            var test =1;
             var host = new ConfigurationBuilder()
                            .SetBasePath(basePath)
                            .AddJsonFile("host.json")
